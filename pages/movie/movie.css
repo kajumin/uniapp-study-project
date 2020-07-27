@@ -1,0 +1,115 @@
+.page {
+	background-color: #f7f4f9;
+}
+.movie {
+	width: 100%;
+	height: 440rpx;
+}
+/* 影片基本信息 */
+.movie-info{
+	display: flex;
+	flex-direction: row;
+	padding: 40rpx 20rpx;
+	background-color: #f7f4f9;
+}
+.cover {
+	width: 280rpx;
+	height: 380rpx;
+}
+.movie-desc {
+	display: flex;
+	flex-direction: column;
+	margin-left: 30rpx;
+	width: 400rpx;
+}
+.title {
+	font-size: 30px;
+	font-weight: bold;
+}
+.movie-basic-info {
+	color: darkgray;
+	font-size: 14px;
+	line-height: 44rpx;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.score-block {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	background-color: #FFFFFF;
+	margin-top: 20rpx;
+	width: 360rpx;
+	height: 90rpx;
+	padding: 20rpx;
+	box-shadow: 3px 2px 10px #dedede;
+}
+.score-words {
+	font-size: 12px;
+	color: grey;
+	margin-right: 10rpx;
+}
+.movie-score {
+	font-size: 26px;
+	font-weight: bold;
+	margin-left: 8rpx;
+	color: #FEAB2A;
+	line-height: 60rpx;
+}
+.prise-counts {
+	font-size: 12px;
+	color: grey;
+	line-height: 44rpx;
+}
+
+/* 剧情介绍 */
+.plots-block {
+	padding: 20rpx 40rpx;
+}
+.plots-title {
+	color: #a9a9a9;
+	font-size: 14px;
+}
+.plots-desc {
+	margin-top: 10rpx;
+	font-size: 16px;
+}
+/* 剧照 */
+.scroll-block {
+	display: flex;
+	flex-direction: column;
+	padding: 20rpx 40rpx;
+}
+.scroll-list {
+	width: 100%;
+	white-space: nowrap;
+	margin-top: 20rpx;
+}
+.plot-image {
+	width: 220rpx;
+	height: 320rpx;
+	margin-right: 10rpx;
+}
+/* 演职人员 */
+.single-actor {
+	width: 170rpx;
+	height: 240rpx;
+	margin-right: 10rpx;
+}
+.actor-wapper {
+	display: inline-block;
+}
+.actor-name, 
+.actor-role{
+	width: 170rpx;
+	text-align: center;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	font-size: 15px;
+}
+.actor-role {
+	font-size: 13px;
+	color: grey;
+}
